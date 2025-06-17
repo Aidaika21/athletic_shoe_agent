@@ -1,10 +1,10 @@
 # Athletic Shoe Shopping Agent
 
-A demonstration of an agentic AI application that helps users find the perfect athletic shoes based on their needs, preferences, and activities.
+An AI agent for athletic shoe shopping recommendations. This project showcases a conversational AI agent that helps users find the perfect athletic shoes based on their needs, preferences, and activities.
 
 ## Overview
 
-This application showcases a conversational AI agent that assists users in shopping for athletic shoes. The agent uses natural language understanding and specialized tools to provide personalized shoe recommendations.
+This application demonstrates an agentic AI application that assists users in shopping for athletic shoes. The agent uses natural language understanding and specialized tools to provide personalized shoe recommendations.
 
 ## What Makes This App Agentic?
 
@@ -48,7 +48,7 @@ athletic_shoe_agent/
 
 1. Clone this repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/Aidaika21/athletic_shoe_agent.git
    cd athletic_shoe_agent
    ```
 
@@ -59,9 +59,9 @@ athletic_shoe_agent/
    pip install -r requirements.txt
    ```
 
-3. Create a `.env` file in the project root with your OpenAI API key:
+3. Create a `.env` file in the project root with your API key:
    ```
-   OPENAI_API_KEY=your_api_key_here
+   ANTHROPIC_API_KEY=your_api_key_here
    ```
 
 ## Usage
@@ -107,7 +107,7 @@ For demonstration purposes, the agent uses a mock database of athletic shoes wit
 
 ## Learning Purpose
 
-This project demonstrates:
+This project is for educational purposes only. It demonstrates:
 - How to structure an agentic application
 - Tool-based architecture for LLM applications
 - Managing conversation context and user preferences
